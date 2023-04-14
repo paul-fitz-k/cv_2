@@ -1,0 +1,155 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather';
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #cddada;
+    border-width: 8px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+h1 {
+    font-family: 'Sacramento';
+    margin: 50px auto 0 auto;
+    font-size: 6rem;
+    line-height: 1; /*1 is the default value..*/
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    font-size: 2.25rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 5%;
+}
+
+.middle-container {
+    position: relative;
+    padding: 5%;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 2.5%;
+}
+
+/*https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3*/
+
+.cloud1 {
+    position: relative;
+    left: 20%;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 25%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.profile {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.profile-img {
+    width: 75%;
+    margin: 0 auto 20px auto;
+}
+
+.code-img {
+    width: 15%;
+    height: 120px;
+    float: left;
+    margin-right: 30px;
+}
+
+.hurling-img {
+    width: 15%;
+    height: 120px;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.contact-message {
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.footer-link {
+    color: #11999E;
+    margin: 5%;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+.license {
+    margin-top: 50px;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
